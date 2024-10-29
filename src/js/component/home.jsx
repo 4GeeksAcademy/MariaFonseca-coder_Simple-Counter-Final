@@ -2,15 +2,15 @@ import React from "react";
 import PropTypes from "prop-types";
 import Card from "./card.jsx";
 
-//Tipos de datos
-Card.propTypes = {
-	digitSix: PropTypes.number,
-	digitFive: PropTypes.number,
-	digitFour: PropTypes.number,
-	digitThree: PropTypes.number,
-	digitTwo: PropTypes.number,
-	digitOne: PropTypes.number,
-};
+// //Tipos de datos
+// Card.propTypes = {
+// 	digitSix: PropTypes.number,
+// 	digitFive: PropTypes.number,
+// 	digitFour: PropTypes.number,
+// 	digitThree: PropTypes.number,
+// 	digitTwo: PropTypes.number,
+// 	digitOne: PropTypes.number,
+// };
 
 // let sec = 0;
 // setInterval(() => {
@@ -28,13 +28,13 @@ Card.propTypes = {
 // 	clearInterval(this.intervalId);
 // }
 
-render() {
-	return (
-		<div id="container" className="d-flex justify-content-center">
-			<Card digitOne={one} digitTwo={two} digitThree={three} digitFour={four} digitFive={five} digitSix={six} />
-		</div >
-	);
-}
 
-
+// const Home =
+// render() {
+// 	return (
+// 		<div id="container" className="d-flex justify-content-center">
+// 			<Card digitOne={one} digitTwo={two} digitThree={three} digitFour={four} digitFive={five} digitSix={six} />
+// 		</div >
+// 	);
+// }
 export default Home;

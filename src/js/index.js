@@ -6,12 +6,6 @@ import Card from "./component/card.jsx";
 // include your styles into the webpack bundle
 import "../styles/index.css";
 
-//import your own components
-import Home from "./component/home.jsx";
-
-//render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
-
 let sec = 0;
 setInterval(() => {
 	const one = Math.floor((sec / 1) % 10);
@@ -23,4 +17,3 @@ setInterval(() => {
     sec++;
     ReactDOM.createRoot(document.getElementById('app')).render(<Card digitOne={one} digitTwo={two} digitThree={three} digitFour={four} digitFive={five} digitSix={six} />);
 }, 1000);
-
